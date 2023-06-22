@@ -24,7 +24,9 @@ const archivoBlack = Archivo_Black({
 })
 
 function useWindowWidth() {
-    const [windowWidth, setWindowWidth] = useState(undefined)
+    const [windowWidth, setWindowWidth] = useState<number | undefined>(
+        undefined
+    )
 
     useEffect(() => {
         setWindowWidth(window.innerWidth)
