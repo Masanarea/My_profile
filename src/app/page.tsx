@@ -45,6 +45,10 @@ function useWindowWidth() {
 
 export default function Home() {
     const windowWidth = useWindowWidth()
+    if (typeof windowWidth === 'undefined') {
+        return null // or some loading spinner
+    }
+
     return (
         <>
             <Head>
