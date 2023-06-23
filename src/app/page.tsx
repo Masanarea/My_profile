@@ -397,7 +397,7 @@ export default function Home() {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        <a href="https://github.com/aaa">
+                                        <a href="https://qiita.com/Masanarea_qiita/items/56fe66a95c2e8ab6bee3">
                                             <FaGithub
                                                 size={'1.6rem'}
                                             ></FaGithub>
@@ -429,10 +429,15 @@ export default function Home() {
                     </div>
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
+                            <img src="/profile/works/qr01.png" />
+                        </div>
+                    </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
                             <div className={styles.portfolioContent}>
                                 <div className={styles.portfolioHeader}>
                                     <h4 className={styles.portfolioTitle}>
-                                        <a href="https://aaa.com/">
+                                        <a href="https://github.com/Masanarea/line_ai_chat_bot">
                                             LINE AI ボット 開発
                                         </a>
                                     </h4>
@@ -441,7 +446,7 @@ export default function Home() {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        <a href="https://github.com/aaa">
+                                        <a href="https://github.com/Masanarea/line_ai_chat_bot">
                                             <FaGithub
                                                 size={'1.6rem'}
                                             ></FaGithub>
@@ -483,7 +488,7 @@ export default function Home() {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        <a href="https://github.com/aaa">
+                                        <a href="https://qiita.com/Masanarea_qiita/items/7b931d13db3144dfed61">
                                             <FaGithub
                                                 size={'1.6rem'}
                                             ></FaGithub>
