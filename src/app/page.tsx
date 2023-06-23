@@ -93,6 +93,29 @@ export default function Home() {
                                                 システム開発を行なっております。
                                                 <br />
                                                 気軽にご連絡ください！👋
+                                                <br />
+                                                <br />
+                                                <br />
+                                                【リンク一覧】
+                                                <br />
+                                                ・スキルシート(できること・今まで携わってきた案件)
+                                                https://docs.google.com/spreadsheets/d/1w6CLvxZpIlBbv8EjlVTeTct9Z0UR2RnYT6pShwg1570/edit?usp=sharing
+                                                <br />
+                                                <br />
+                                                ・Qiita(下記の技術記事では、いいねとストック数を約40近くいただくことができました！)
+                                                <br />
+                                                https://qiita.com/Masanarea_qiita/items/2e1616e4e18f6c8ee26d
+                                                <br />
+                                                <br />
+                                                ・GitHub(個人開発リポジトリや、プロフィール詳細を記入)
+                                                <br />
+                                                https://github.com/Masanarea
+                                                <br />
+                                                <br />
+                                                ・Lapras(23,837位/約170万人中
+                                                ※2023/06/22 現在)
+                                                <br />
+                                                https://lapras.com/public/ZBNQKPT
                                             </p>
                                         </motion.div>
                                         <motion.div
@@ -156,16 +179,38 @@ export default function Home() {
                                     <p className={styles.description}>
                                         高卒実務未経験状態からIT企業に就職した、
                                         <br />
-                                        2年目のエンジニアです！(21才)
-                                        <br />
+                                        2年目のエンジニアです!(21才)
                                         <br />
                                         これまで
                                         ECサイト開発やDX化ツールの制作、地域の観光アプリ開発など、多数の案件に携わってきました。
                                         <br />
                                         現在は、関西で Web
-                                        システムの開発を行なっております。
+                                        システム開発を行なっております。
                                         <br />
                                         気軽にご連絡ください！👋
+                                        <br />
+                                        <br />
+                                        <br />
+                                        【リンク一覧】
+                                        <br />
+                                        ・スキルシート(できること・今まで携わってきた案件)
+                                        https://docs.google.com/spreadsheets/d/1w6CLvxZpIlBbv8EjlVTeTct9Z0UR2RnYT6pShwg1570/edit?usp=sharing
+                                        <br />
+                                        <br />
+                                        ・Qiita(下記の技術記事では、いいねとストック数を約40近くいただくことができました！)
+                                        <br />
+                                        https://qiita.com/Masanarea_qiita/items/2e1616e4e18f6c8ee26d
+                                        <br />
+                                        <br />
+                                        ・GitHub(個人開発リポジトリや、プロフィール詳細を記入)
+                                        <br />
+                                        https://github.com/Masanarea
+                                        <br />
+                                        <br />
+                                        ・Lapras(23,837位/約170万人中
+                                        ※2023/06/22 現在)
+                                        <br />
+                                        https://lapras.com/public/ZBNQKPT
                                     </p>
                                 </motion.div>
                                 <motion.div
@@ -275,10 +320,16 @@ export default function Home() {
                                 勉強会での登壇や非異業種の方との交流を増やしていければと考えております。
                             </p>
                         </motion.div>
-                    </motion.div>
+                        </motion.div>
                 </div> */}
                 <div className={`section ${styles.slider}`}>
                     <div className={styles.sliderInner}>
+                        <div className={styles.sliderItem}>
+                            <img
+                                className={styles.sliderItem}
+                                src="/profile/works/スクリーンショット 2023-06-23 10.13.40.png"
+                            />
+                        </div>
                         <div className={styles.sliderItem}>
                             <img
                                 className={styles.sliderItem}
@@ -289,6 +340,12 @@ export default function Home() {
                             <img
                                 className={styles.sliderItem}
                                 src="/profile/works/IMG20230622084857.jpg"
+                            />
+                        </div>
+                        <div className={styles.sliderItem}>
+                            <img
+                                className={styles.sliderItem}
+                                src="/profile/works/スクリーンショット 2023-06-23 10.23.00.png"
                             />
                         </div>
                         <div className={styles.sliderItem}>
@@ -319,13 +376,11 @@ export default function Home() {
                 </div>
                 {/* Portfolio */}
                 <div className={`section ${styles.portfolio}`}>
-                    <h2 className="sectionTitle">Portfolio</h2>
+                    {/* <h2 className="sectionTitle">Portfolio</h2> */}
+                    <h2 className="sectionTitle">直近で作成したアプリ</h2>
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
-                            <img
-                                className={styles.portfolioImage}
-                                src="/profile/works/qiita01.avif"
-                            />
+                            <img src="/profile/works/qiita01.avif" />
                         </div>
                     </div>
                     <div className={styles.portfolioInner}>
@@ -333,7 +388,7 @@ export default function Home() {
                             <div className={styles.portfolioContent}>
                                 <div className={styles.portfolioHeader}>
                                     <h4 className={styles.portfolioTitle}>
-                                        <a href="https://aaa.com/">
+                                        <a href="https://qiita.com/Masanarea_qiita/items/56fe66a95c2e8ab6bee3">
                                             AI コミュニケーター
                                         </a>
                                     </h4>
@@ -362,6 +417,92 @@ export default function Home() {
                                     </strong>
                                     <br />
                                     <br /> */}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* その２ */}
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <img src="/profile/works/Videotogif (4).gif" />
+                        </div>
+                    </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <div className={styles.portfolioContent}>
+                                <div className={styles.portfolioHeader}>
+                                    <h4 className={styles.portfolioTitle}>
+                                        <a href="https://aaa.com/">
+                                            LINE AI ボット 開発
+                                        </a>
+                                    </h4>
+                                    <br />
+                                    <motion.div
+                                        whileHover={{ scale: 1.1 }}
+                                        whileTap={{ scale: 0.9 }}
+                                    >
+                                        <a href="https://github.com/aaa">
+                                            <FaGithub
+                                                size={'1.6rem'}
+                                            ></FaGithub>
+                                        </a>
+                                    </motion.div>
+                                </div>
+                                <p className={styles.portfolioDescription}>
+                                    <strong>
+                                        LINE上でテンプレートに沿わない自然な会話を行うチャットボットの開発
+                                    </strong>
+                                    {/* <br />
+                                    <strong>
+                                        &quot;If You Want To Go Far, Go Together&quot;
+                                        (遠くへ行きたいならみんなで行け)
+                                    </strong>
+                                    <br />
+                                    <br /> */}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* その3 */}
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <img src="/profile/works/Videotogif (3).gif" />
+                        </div>
+                    </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <div className={styles.portfolioContent}>
+                                <div className={styles.portfolioHeader}>
+                                    <h4 className={styles.portfolioTitle}>
+                                        <a href="https://qiita.com/Masanarea_qiita/items/7b931d13db3144dfed61">
+                                            Webサイトお問合せ AI ボット 開発
+                                        </a>
+                                    </h4>
+                                    <br />
+                                    <motion.div
+                                        whileHover={{ scale: 1.1 }}
+                                        whileTap={{ scale: 0.9 }}
+                                    >
+                                        <a href="https://github.com/aaa">
+                                            <FaGithub
+                                                size={'1.6rem'}
+                                            ></FaGithub>
+                                        </a>
+                                    </motion.div>
+                                </div>
+                                <p className={styles.portfolioDescription}>
+                                    <strong>
+                                        Webサイトに訪れたが自分が探している情報はどこにあるんだ？？
+                                    </strong>
+                                    <br />
+                                    <strong>
+                                        これを解決するために作りました。
+                                    </strong>
+                                    <br />
+                                    <strong>
+                                        上の動画は東京のキャンプ場のデータを全て学習させたキャンプ場Webサイト用のAI
+                                        ボットです
+                                    </strong>
                                 </p>
                             </div>
                         </div>
