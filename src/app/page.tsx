@@ -380,11 +380,6 @@ export default function Home() {
                     <h2 className="sectionTitle">直近で作成したアプリ</h2>
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
-                            <img src="/profile/works/qiita01.avif" />
-                        </div>
-                    </div>
-                    <div className={styles.portfolioInner}>
-                        <div className={styles.portfolioCard}>
                             <div className={styles.portfolioContent}>
                                 <div className={styles.portfolioHeader}>
                                     <h4 className={styles.portfolioTitle}>
@@ -421,17 +416,12 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <img src="/profile/works/qiita01.avif" />
+                        </div>
+                    </div>
                     {/* その２ */}
-                    <div className={styles.portfolioInner}>
-                        <div className={styles.portfolioCard}>
-                            <img src="/profile/works/Videotogif (4).gif" />
-                        </div>
-                    </div>
-                    <div className={styles.portfolioInner}>
-                        <div className={styles.portfolioCard}>
-                            <img src="/profile/works/qr01.png" />
-                        </div>
-                    </div>
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
                             <div className={styles.portfolioContent}>
@@ -457,23 +447,21 @@ export default function Home() {
                                     <strong>
                                         LINE上でテンプレートに沿わない自然な会話を行うチャットボットの開発
                                     </strong>
-                                    {/* <br />
-                                    <strong>
-                                        &quot;If You Want To Go Far, Go Together&quot;
-                                        (遠くへ行きたいならみんなで行け)
-                                    </strong>
-                                    <br />
-                                    <br /> */}
                                 </p>
                             </div>
                         </div>
                     </div>
-                    {/* その3 */}
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
-                            <img src="/profile/works/Videotogif (3).gif" />
+                            <img src="/profile/works/Videotogif (4).gif" />
                         </div>
                     </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <img src="/profile/works/qr01.png" />
+                        </div>
+                    </div>
+                    {/* その3 */}
                     <div className={styles.portfolioInner}>
                         <div className={styles.portfolioCard}>
                             <div className={styles.portfolioContent}>
@@ -510,6 +498,11 @@ export default function Home() {
                                     </strong>
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div className={styles.portfolioInner}>
+                        <div className={styles.portfolioCard}>
+                            <img src="/profile/works/Videotogif (3).gif" />
                         </div>
                     </div>
                 </div>
