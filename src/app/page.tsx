@@ -109,7 +109,7 @@ export default function Home() {
                                                 <br />
                                                 ・GitHub(個人開発リポジトリや、プロフィール詳細を記入)
                                                 <br />
-                                                https://github.com/Masanarea
+                                                https://github.com/yumelab-imai
                                                 <br />
                                                 <br />
                                                 ・Lapras(23,837位/約170万人中
@@ -204,7 +204,7 @@ export default function Home() {
                                         <br />
                                         ・GitHub(個人開発リポジトリや、プロフィール詳細を記入)
                                         <br />
-                                        https://github.com/Masanarea
+                                        https://github.com/yumelab-imai
                                         <br />
                                         <br />
                                         ・Lapras(23,837位/約170万人中
@@ -427,7 +427,7 @@ export default function Home() {
                             <div className={styles.portfolioContent}>
                                 <div className={styles.portfolioHeader}>
                                     <h4 className={styles.portfolioTitle}>
-                                        <a href="https://github.com/Masanarea/line_ai_chat_bot">
+                                        <a href="https://github.com/yumelab-imai/line_ai_chat_bot">
                                             LINE AI ボット 開発
                                         </a>
                                     </h4>
@@ -436,7 +436,7 @@ export default function Home() {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        <a href="https://github.com/Masanarea/line_ai_chat_bot">
+                                        <a href="https://github.com/yumelab-imai/line_ai_chat_bot">
                                             <FaGithub
                                                 size={'1.6rem'}
                                             ></FaGithub>
